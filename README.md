@@ -27,11 +27,6 @@ Odin Recipes (Gather & Graze) is a multi-page website featuring three Filipino d
 - Feedback form with labels, a drop-down, radio buttons and a text area
 - Accessibility: skip link, image alt text, keyboard focus styles, descriptive headings
 
-## Credits
-
-- Recipe photos: Wikimedia Commons, used under Creative Commons licenses (links are in each page footer).
-- AI assistance: Claude (Anthropic) helped with parts of the website code, the step-by-step video and this README.
-
 ## Author
 
 Kyle Dave Diamada · BSCS · Section EMGO1
