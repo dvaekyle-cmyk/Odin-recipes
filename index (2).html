@@ -1,0 +1,79 @@
+<!doctype html>
+<!--
+  Student: Kyle Dave Diamada
+  Course: BSCS · Section EMGO1
+  Subject: ITE 10 – Introduction to Computing, Caraga State University
+  Activity: Practical Exercise 5 – HTML Development (Odin Recipes)
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Kyle Dave Diamada">
+  <meta name="description" content="Simple Filipino recipes: Chicken Adobo, Sinigang na Baboy and Leche Flan.">
+  <title>Gather & Graze — Filipino Recipes</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="header">
+    <a class="logo" href="index.html">Gather <span>&amp;</span> Graze</a>
+    <nav aria-label="Main navigation"><ul><li><a href="index.html#recipes" aria-current="page">Recipes</a></li><li><a href="feedback.html">Feedback</a></li><li><a href="index.html#about" aria-current="page">About</a></li></ul></nav>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <p class="eyebrow">Odin Recipes</p>
+      <h1>A little more<br><em>delicious.</em></h1>
+      <p>Welcome to my Filipino Recipes Website! Explore a few well-loved Filipino delicacies that you can prepare at home.</p>
+      <a class="button" href="#recipes">Explore recipes ↓</a>
+    </section>
+
+    <section class="recipes" id="recipes" aria-labelledby="recipes-heading">
+      <p class="eyebrow">Available recipes</p>
+      <h2 id="recipes-heading">What's cooking?</h2>
+      <ul class="cards">
+        <li class="card">
+          <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Filipino_Chicken_Adobo.JPG?width=800" alt="Chicken adobo served with rice" width="800" height="600">
+          <p class="tag">1 HOUR · EASY</p>
+          <h3><a href="chicken-adobo.html">Chicken Adobo</a></h3>
+          <p>Chicken simmered in soy sauce, vinegar and garlic.</p>
+        </li>
+        <li class="card">
+          <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Sinigang_na_Baboy_DSCF4234.jpg?width=800" alt="Pork sinigang soup with vegetables" width="800" height="600">
+          <p class="tag">1.5 HOURS · MEDIUM</p>
+          <h3><a href="sinigang.html">Sinigang na Baboy</a></h3>
+          <p>A sour, comforting pork soup with fresh vegetables.</p>
+        </li>
+        <li class="card">
+          <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Leche_flan_Filipinas.jpg?width=800" alt="Leche flan with caramel syrup" width="800" height="600">
+          <p class="tag">1 HOUR · A LITTLE TREAT</p>
+          <h3><a href="leche-flan.html">Leche Flan</a></h3>
+          <p>Smooth, creamy caramel custard made for sharing.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="about" id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About this website</h2>
+      <p>This website serves as my output for ITE 10 Practical Exercise 5: HTML Development.</p>
+      <p>Tried a recipe? <a href="feedback.html">Send me your feedback</a>.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Gather &amp; Graze · Cook something lovely.</p>
+    <p class="course-info">
+      Created by <strong>Kyle Dave Diamada</strong> · BSCS · Section EMGO1<br>
+      ITE 10 – Introduction to Computing · Practical Exercise 5: HTML Development<br>
+      Caraga State University, Butuan City
+    </p>
+    <p class="course-info">Photos from Wikimedia Commons under Creative Commons licenses: <a href="https://commons.wikimedia.org/wiki/File:Filipino_Chicken_Adobo.JPG">Chicken adobo</a>, <a href="https://commons.wikimedia.org/wiki/File:Sinigang_na_Baboy_DSCF4234.jpg">Sinigang na baboy</a>, <a href="https://commons.wikimedia.org/wiki/File:Leche_flan_Filipinas.jpg">Leche flan</a>.</p>
+    <p><a href="#top">Back to top</a></p>
+  </footer>
+</body>
+</html>
